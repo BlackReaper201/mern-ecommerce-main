@@ -183,7 +183,7 @@ class Navigation extends React.PureComponent {
                   <h1 className='logo'>Fullife</h1>
                 </Link>
                <img
-                  className='agreement-banner'
+                  className='logo'
                   src={'/images/banners/fullogo.png'}
                   alt='agreement banner'
                   />
