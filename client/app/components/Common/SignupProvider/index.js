@@ -12,11 +12,11 @@ import { BASE_API_URL } from '../../../constants';
 const SignupProvider = () => {
   return (
     <div className='signup-provider'>
-      <a href={`${BASE_API_URL}/auth/google`} className='mb-2 google-btn'>
+      <a href="#">
         
       </a>
 
-      <a href={`${BASE_API_URL}/auth/facebook`} className='facebook-btn'>
+      <a href="#">
       
       </a>
     </div>
