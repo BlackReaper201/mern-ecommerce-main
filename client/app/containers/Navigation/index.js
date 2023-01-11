@@ -11,7 +11,7 @@ import { Link, NavLink as ActiveLink, withRouter } from 'react-router-dom';
 import Autosuggest from 'react-autosuggest';
 import AutosuggestHighlightMatch from 'autosuggest-highlight/match';
 import AutosuggestHighlightParse from 'autosuggest-highlight/parse';
-import public from 'images/banners/fullogo.png';
+import images from 'images/banners/fullogo.png';
 import {
   Container,
   Row,
