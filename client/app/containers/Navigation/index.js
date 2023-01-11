@@ -150,7 +150,7 @@ class Navigation extends React.PureComponent {
               </Col>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-phone' />
-                <span>Call us 705-134-1299</span>
+                <span>Call us 08067476914</span>
               </Col>
               <Col xs='12' className='text-center d-block d-md-none'>
                 <i className='fa fa-phone' />
@@ -184,7 +184,7 @@ class Navigation extends React.PureComponent {
                 </Link>
                <img
                   className='agreement-banner'
-                  src={'/images/banners/agreement.svg'}
+                  src={'/images/banners/fullogo.png'}
                   alt='agreement banner'
                   />
               </div>
