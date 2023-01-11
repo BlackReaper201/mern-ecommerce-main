@@ -11,7 +11,6 @@ import { Link, NavLink as ActiveLink, withRouter } from 'react-router-dom';
 import Autosuggest from 'react-autosuggest';
 import AutosuggestHighlightMatch from 'autosuggest-highlight/match';
 import AutosuggestHighlightParse from 'autosuggest-highlight/parse';
-import images from 'images/banners/fullogo.png';
 import {
   Container,
   Row,
@@ -183,9 +182,11 @@ class Navigation extends React.PureComponent {
                 <Link to='/'>
                   <h1 className='logo'>Fullife</h1>
                 </Link>
-                <div>
-                 <img src="images/banners/fullogo.png" alt="BigCo Inc. logo"/>
-                </div>
+               <img
+                  className='agreement-banner'
+                  src={'/images/banners/agreement.svg'}
+                  alt='agreement banner'
+                  />
               </div>
             </Col>
             <Col
