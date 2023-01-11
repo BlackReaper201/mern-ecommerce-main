@@ -179,13 +179,11 @@ class Navigation extends React.PureComponent {
                     onClick={() => this.toggleMenu()}
                   />
                 )}
-                <Link to='/'>
-               <img
+                  <img
                   className='llogo'
                   src={'/images/banners/fullogo.png'}
                   alt='llogo'
                   />
-                </Link>
               </div>
             </Col>
             <Col
