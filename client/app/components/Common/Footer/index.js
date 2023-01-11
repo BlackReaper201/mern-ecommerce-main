@@ -65,27 +65,17 @@ const Footer = () => {
           </div>
         </div>
         <div className='footer-copyright'>
-          <span>© {new Date().getFullYear()} MERN Store</span>
+          <span>© {new Date().getFullYear()} Fullife</span>
         </div>
         <ul className='footer-social-item'>
           <li>
-            <a href='/#facebook' rel='noreferrer noopener' target='_blank'>
+            <a href='https://www.facebook.com/people/Fullife-Coffee/100077366273389/?paipv=0&eav=AfbitW65oTJWeTk0Xa6CvXUWQsUori09p5ORcDuQntGPwXjvB4-lThZoyvaUnfoyGW8&_rdr' rel='noreferrer noopener' target='_blank'>
               <span className='facebook-icon' />
             </a>
           </li>
           <li>
-            <a href='/#instagram' rel='noreferrer noopener' target='_blank'>
+            <a href='https://instagram.com/fullifecoffee?igshid=OGQ2MjdiOTE=' rel='noreferrer noopener' target='_blank'>
               <span className='instagram-icon' />
-            </a>
-          </li>
-          <li>
-            <a href='/#pinterest' rel='noreferrer noopener' target='_blank'>
-              <span className='pinterest-icon' />
-            </a>
-          </li>
-          <li>
-            <a href='/#twitter' rel='noreferrer noopener' target='_blank'>
-              <span className='twitter-icon' />
             </a>
           </li>
         </ul>
